@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>商品详情</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/swiper-4.2.2.min.css">
+    <link rel="stylesheet" href="css/pro-details.css">
+</head>
+<body>
+<div class="header">
+    <a href="javascript:void(0)" class="history">
+        <img src="img/left.png" height="37" width="20"/>
+    </a>
+    <form class="search">
+        <img src="img/search02.png" height="38" width="38"/>
+        <input type="text" value="四件套">
+    </form>
+</div>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/details01.jpg" height="474" width="750"/></div>
+        <div class="swiper-slide"><img src="img/details01.jpg" height="474" width="750"/></div>
+        <div class="swiper-slide"><img src="img/details01.jpg" height="474" width="750"/></div>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+<div class="content">
+    <div class="details">
+        <div class="title">
+            <p>康尔馨酒店床上用品四件套纯棉1.8m床全棉贡缎绣花六件套床单被套</p>
+            <a href="javascript:;">
+                <img src="img/share.png" height="40" width="34"/>
+                <span>分享</span>
+            </a>
+        </div>
+        <p class="price">RMB ￥<span>532</span></p>
+        <p class="promotion">促销 <span>满3000减500</span> 上不封顶</p>
+        <ul>
+            <li>快递：免运费</li>
+            <li>月销量：12.1万  </li>
+            <li>广东广州</li>
+        </ul>
+        <p><img src="img/give.png" height="31" width="44"/>付款后，预计三天后到达</p>
+    </div>
+    <div class="service">
+        <ul>
+            <li>
+                <a href="javascript:;">
+                    <span><img src="img/tick.png" height="27" width="27"/>24小时内发货</span>
+                    <span><img src="img/tick.png" height="27" width="27"/>7天无理由</span>
+                    <span><img src="img/tick.png" height="27" width="27"/>正品保障</span>
+                </a>
+            </li>
+            <li class="dis">
+                <a href="javascript:;">
+                    <span><img src="img/coupon03.png" height="35" width="56"/>领取优惠券</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="info">
+        <div  class="colour">
+            <h2>颜色</h2>
+            <ul>
+                <li>蓝色</li>
+                <li class="on">黑色</li>
+            </ul>
+        </div>
+        <div class="size">
+            <h2>尺码</h2>
+            <ul>
+                <li>1.8m (6英尺）床</li>
+                <li>1.8m (6英尺）床</li>
+                <li>1.8m (6英尺）床</li>
+                <li>1.8m (6英尺）床</li>
+            </ul>
+        </div>
+        <div class="number-line">
+            <h2>数量</h2>
+            <div class="number">
+                <input type="button" value="-" class="reduce">
+                <input type="text" value="1" class="num" onKeyUp="value=value.replace(/[^\d]/g,'')">
+                <input type="button" value="+" class="plus">
+            </div>
+        </div>
+        <div class="btn">
+            <button class="buy">立即购买</button>
+            <button class="car">加入购物车</button>
+        </div>
+    </div>
+</div>
+</body>
+
+<script src="js/swiper-4.2.2.min.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/common.js"></script>
+<script src="js/swiper.js"></script>
+<script src="js/pro-details.js"></script>
+</html>

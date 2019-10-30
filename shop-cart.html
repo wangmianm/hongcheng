@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/shop-cart.css">
+    <link rel="stylesheet" href="css/dialog.css">
+
+</head>
+<body ng-app="app" ng-controller="cart">
+<div class="header">
+    <p><a href="javascript:void(0);" class="history">
+        <img src="img/left.png" height="37" width="20"/></a>购物车<a href="javascript:void(0);" class="edit">编辑</a></p>
+        <div class="fun">
+            <div class="funs">
+                <span ng-click="favour()">移入收藏夹</span>
+                <span class="del" ng-click="del()">删除</span>
+            </div>
+
+        </div>
+</div>
+<div class="shop-list">
+    <ul>
+        <li ng-repeat="i in info track by $index">
+            <label>
+                <img ng-src="{{check($index)}}" height="39" width="39" ng-click="dan($index)"/>
+            </label>
+            <a ng-click="details($index)">
+                <img ng-src="{{i.src}}" height="200" width="200"/>
+            </a>
+            <div>
+                <h2>{{i.title}}</h2>
+                <p><a ng-click="details($index)">{{i.name}}</a></p>
+                <p class="colour">颜色：{{i.color}}</p>
+                <p class="size">{{i.size}}</p>
+                <p class="price">￥<span>{{i.price}}</span></p>
+                <span>
+                    <input type="button" value="-" class="reduce" ng-click="reduce($index)">
+                    <input type="text" value="1" ng-model="i.num" class="number" onKeyUp="value=value.replace(/[^\d]/g,'')" ng-blur="checknum($index)">
+                    <input type="button" value="+" class="plus" ng-click="plus($index)">
+                </span>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="set">
+    <img ng-src="{{alls()}}" ng-click="all()" ng-model="bol" height="39" width="39"/>
+    <div class="total">
+        <p>合计：<span ng-bind="getTotal()|currency:'￥':0"></span></p>
+        <p>不含运费</p>
+    </div>
+    <a href="javascript:;" ng-click="confirm()">结算<span ng-bind="sum()">()</span></a>
+</div>
+<footer>
+    <ul>
+        <li>
+            <a href="index.html">
+                <img src="img/index.png" height="49" width="49"/>首页
+            </a>
+        </li>
+        <li>
+            <a href="pro-categories.html">
+                <img src="img/menu_bar02.png" height="49" width="49"/>分类
+            </a>
+        </li>
+        <li>
+            <a href="pro-list.html">
+                <img src="img/menu_bar03.png" height="48" width="48"/>搜索
+            </a>
+        </li>
+        <li class="on">
+            <a href="shop-cart.html">
+                <img src="img/cart01.png" height="48" width="54"/>购物车
+            </a>
+        </li>
+        <li>
+            <a href="user.html">
+                <img src="img/user.png" height="49" width="47"/>我的
+            </a>
+        </li>
+    </ul>
+</footer>
+</body>
+<script src="js/jquery.js"></script>
+<script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+<script src="js/shop-cart.js"></script>
+<script src="js/common.js"></script>
+<script src="js/dialog.min.js"></script>
+
+</html>

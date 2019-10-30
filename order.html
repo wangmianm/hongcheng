@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>我的订单</title>
+    <link rel="stylesheet" href="css/order.css">
+    <link rel="stylesheet" href="css/public.css">
+</head>
+<body ng-app="app" ng-controller="first">
+<div class="header">
+    <p><a href="javascript:void(0);" class="history"><img src="img/left.png" height="37" width="20"/></a>我的订单<a href="javascript:void(0);" ng-click="edit()">编辑</a></p>
+</div>
+<div class="nav">
+    <ul>
+        <li class="on"><a href="javascript:;">全部</a></li>
+        <li><a href="javascript:;">代付款</a></li>
+        <li><a href="javascript:;">待发货</a></li>
+        <li><a href="javascript:;">待收货</a></li>
+        <li><a href="javascript:;">待评价</a></li>
+    </ul>
+</div>
+<div class="pro-list">
+    <ul>
+        <li ng-repeat="i in arr">
+            <p>{{i.order}}<span>交易状态：交易成功</span></p>
+            <a href="pro-details.html">
+                <img ng-src="{{i.src}}" height="264" width="264"/>
+            </a>
+            <div>
+                <h2>{{i.title}}</h2>
+                <p><a href="pro-details.html">{{i.name}}</a></p>
+                <p class="colour">{{i.colour}}</p>
+                <p class="size">{{i.size}}</p>
+                <p class="num">￥<span>{{i.num}}</span></p>
+                <p class="sum">共<span>{{i.number}}</span>件商品 合计：￥<span>{{i.sum}}</span>（含运费：￥0.0）</p>
+            </div>
+            <span class="del" ng-click="del($index)">删除</span>
+        </li>
+    </ul>
+</div>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/common.js"></script>
+<script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+<script src="js/order.js"></script>
+</html>

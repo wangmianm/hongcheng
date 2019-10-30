@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>确认订单</title>
+    <link rel="stylesheet" href="css/confirm-order.css">
+    <link rel="stylesheet" href="css/public.css">
+</head>
+<body ng-app="app" ng-controller="order">
+<div class="show"></div>
+    <div class="header">
+        <p><a href="javascript:void(0);" class="history"><img src="img/left.png" height="37" width="20"/></a>确认订单</p>
+    </div>
+    <div class="address">
+        <p><img src="img/personal.png" height="24" width="21"/>收货人：谁美! 我最美<span>13456255489</span></p>
+        <p><img src="img/address.png" height="24" width="24"/>地址：广东省广州市海珠区客村新港中路134号
+            <a href="javascript:void(0);"><img src="img/right.png" height="29" width="17"/></a>
+        </p>
+        <span>（收货不便时，可选择代理收货服务）</span>
+    </div>
+    <div class="rectangle"></div>
+    <div class="order">
+        <ul>
+            <li ng-repeat="i in info track by $index"  ng-if="check($index)">
+                <a ng-click="details(i.id)">
+                    <img ng-src="{{i.src}}" height="264" width="264"/>
+                </a>
+                <div>
+                    <h5>{{i.title}}</h5>
+                    <p><a ng-click="details($index)">{{i.name}}</a></p>
+                    <p class="colour">颜色：{{i.color}}<span>尺寸：{{i.size}}</span></p>
+                    <p class="price">￥<span>{{i.price}}</span><span class="num">X{{i.num}}</span></p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="rectangle"></div>
+    <div class="info">
+        <ul>
+            <li>售后服务<p>全国联保<img src="img/right.png" height="29" width="17"/></p></li>
+            <li>配送方式<p>快递免邮<img src="img/right.png" height="29" width="17"/></p></li>
+            <li>运费险<p>卖家赠送，若确认收货前退货，可获保险赔付<img src="img/right.png" height="29" width="17"/></p></li>
+            <li>发票类型<p>电子发票  <img src="img/right.png" height="29" width="17"/></p></li>
+            <li><span>卖家留言：</span><p class="exp">选填<textarea placeholder="对本次交易的说明"></textarea></p></li>
+            <li class="num">
+                <div>
+                    <p>数量：<span ng-bind="nums"></span></p>
+                    <p>运费：￥<span>0.00</span></p>
+                    <p class="sum">小计：<span ng-bind="sum">￥4322</span></p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="total">
+        <p>合计：<span>￥</span><span ng-bind="sums">4322</span></p>
+        <a href="javascript:void(0)">提交订单</a>
+    </div>
+    <div class="pay">
+        <p class="mask"></p>
+        <div class="head">
+            <p>
+                <a href="javascript:;" class="hide">X</a>
+                <span>支付详情</span>
+                <a href="javascript:;">
+                    <img src="img/doubt.png" height="32" width="32"/>
+                </a>
+            </p>
+        </div>
+        <ul class="payment">
+            <li>支付账号<p>11706612294</p></li>
+            <li><a href="javascript:;">付款方式<span>广州农业银行 ></span></a></li>
+            <li><a href="javascript:;">发票信息<span>电子发票 ></span></a></li>
+            <li class="sum">需付金额 <p>￥<span ng-bind="sums">4322.00</span></p></li>
+        </ul>
+        <a href="javascript:;" class="confirm">确认付款</a>
+    </div>
+    <div class="alert">
+        <div class="jump">
+            <h2>跳转到</h2>
+            <p>
+                <a href="pay-success.html">支付成功</a>
+                <a href="pay-failure.html">支付失败</a>
+            </p>
+        </div>
+    </div>
+</body>
+<script src="js/jquery.js"></script>
+<script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/confirm-order.js"></script>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>个人中心</title>
+    <link rel="stylesheet" href="css/user.css">
+</head>
+<body>
+<div class="header">
+        <p>修改资料</p>
+        <div class="user_name">
+            <img src="img/user02.png" height="167" width="167"/>
+            <h2>多迪君</h2>
+            <p>这家伙很懒，什么都没有留下</p>
+        </div>
+</div>
+<div class="order">
+    <ul>
+        <li>
+            <a href="order.html">
+                <img src="img/payment.png" height="74" width="74"/>
+                <span>代付款</span>
+            </a>
+        </li>
+        <li>
+            <a href="order.html">
+                <img src="img/consignment.png" height="74" width="74"/>
+                <span>待发货</span>
+            </a>
+        </li>
+        <li>
+            <a href="order.html">
+                <img src="img/collection.png" height="74" width="74"/>
+                <span>待收货</span>
+            </a>
+        </li>
+        <li>
+            <a href="order.html">
+                <img src="img/evaluate.png" height="74" width="74"/>
+                <span>待评价</span>
+            </a>
+        </li>
+        <li>
+            <a href="order.html">
+                    <img src="img/refund.png" height="74" width="74"/>
+                    <span>退款/售后</span>
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="state">
+    <ul>
+        <li>
+            <a href="javascript:;">
+                <img src="img/collect.png" height="96" width="96"/>
+                <span>我的收藏</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <img src="img/comment.png" height="96" width="96"/>
+                <span>我的评论</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <img src="img/foot.png" height="96" width="96"/>
+                <span>我的足迹</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <img src="img/activity.png" height="96" width="96"/>
+                <span>我的活动</span>
+            </a>
+        </li>
+        <li>
+            <a href="order.html">
+                <img src="img/order04.png" height="96" width="96"/>
+                <span>我的订单</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <img src="img/address01.png" height="96" width="96"/>
+                <span>收货地址</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <img src="img/record02.png" height="96" width="96"/>
+                <span>购买记录</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <img src="img/data.png" height="96" width="96"/>
+                <span>个人资料</span>
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="assets">
+    <h2>我的资产</h2>
+    <ul>
+        <li>
+            <a href="javascript:;">
+                <img src="img/coupon01.png" height="96" width="96"/>
+                <span>购物券</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <img src="img/coupon02.png" height="96" width="96"/>
+                <span>优惠券</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <img src="img/integral.png" height="96" width="96"/>
+                <span>积分</span>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;">
+                <img src="img/redbag.png" height="96" width="96"/>
+                <span>红包</span>
+            </a>
+        </li>
+    </ul>
+</div>
+<footer>
+    <ul>
+        <li>
+            <a href="index.html">
+                <img src="img/index.png" height="49" width="49"/>首页
+            </a>
+        </li>
+        <li>
+            <a href="pro-categories.html">
+                <img src="img/menu_bar02.png" height="49" width="49"/>分类
+            </a>
+        </li>
+        <li>
+            <a href="pro-search.html">
+                <img src="img/menu_bar03.png" height="48" width="48"/>搜索
+            </a>
+        </li>
+        <li>
+            <a href="shop-cart.html">
+                <img src="img/cart.png" height="48" width="54"/>购物车
+            </a>
+        </li>
+        <li class="on">
+            <a href="user.html">
+                <img src="img/user03.png" height="49" width="47"/>我的
+            </a>
+        </li>
+    </ul>
+</footer>
+</body>
+<script src="js/common.js"></script>
+<script>
+    var login=document.querySelector(".user_name img")
+    login.onclick=function () {
+        location.href="login.html"
+    }
+</script>
+</html>

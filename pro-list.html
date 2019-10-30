@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>商品列表</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/pro-list.css">
+</head>
+<body ng-app="app" ng-controller="list">
+<div class="header">
+    <a href="javascript:void(0)" class="history">
+        <img src="img/left.png" height="37" width="20"/>
+    </a>
+    <form class="search">
+        <img src="img/search02.png" height="38" width="38"/>
+        <input type="text" value="四件套">
+    </form>
+</div>
+<div class="content">
+    <div class="nav">
+        <ul>
+            <li class="on">
+                <a href="javascript:void(0)">默认
+                    <img src="img/bottom.png" height="12" width="23"/>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:void(0)">销量</a>
+            </li>
+            <li>
+                <a href="javascript:void(0)">最新</a>
+            </li>
+            <li>
+                <a href="javascript:void(0)">价格
+                    <img src="img/bottom.png" height="12" width="23"/>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:void(0)">筛选
+                    <img src="img/bottom.png" height="12" width="23"/>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="pro-list">
+        <ul>
+            <li ng-repeat="i in info track by $index">
+                <a ng-click="details(i.id)">
+                    <img ng-src="{{i.src}}" height="239" width="326"/>
+                </a>
+                <div>
+                    <h2>{{i.name}}</h2>
+                    <p><a  ng-click="details($index)">{{i.title}}</a></p>
+                    <span>￥{{i.price}}</span>
+                    <button class="buy" ng-click="buyCart($index)">立即购买</button>
+                    <button class="add" ng-click="addCart($index)">加入购物车</button>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<footer>
+    <ul>
+        <li class="on">
+            <a href="index.html">
+                <img src="img/menu_bar01.png" height="49" width="48"/>首页
+            </a>
+        </li>
+        <li>
+            <a href="pro-categories.html">
+                <img src="img/menu_bar02.png" height="49" width="49"/>分类
+            </a>
+        </li>
+        <li>
+            <a href="pro-search.html">
+                <img src="img/menu_bar03.png" height="48" width="48"/>搜索
+            </a>
+        </li>
+        <li>
+            <a href="shop-cart.html">
+                <img src="img/cart.png" height="48" width="54"/>购物车
+            </a>
+        </li>
+        <li>
+            <a href="user.html">
+                <img src="img/user.png" height="49" width="47"/>我的
+            </a>
+        </li>
+    </ul>
+</footer>
+<script src="js/jquery.js"></script>
+<script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/pro-list.js"></script>
+
+</body>
+</html>

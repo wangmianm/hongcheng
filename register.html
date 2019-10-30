@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+<div class="header">
+    <p><a href="javascript:void(0);" class="history"><img src="img/left.png" height="37" width="20"/></a>注册</p>
+</div>
+<div class="content">
+    <form action="">
+        <ul>
+            <li>
+                <img src="img/member02.png" height="35" width="31"/>
+                <input type="text" id="user" name="phone" placeholder="会员名/手机号">
+            </li>
+            <li>
+                <img src="img/pass.png" height="37" width="31"/>
+                <input type="password" id="password" name="password" placeholder="请输入密码">
+            </li>
+            <li>
+                <img src="img/pass.png" height="37" width="31"/>
+                <input type="password" id="passwords" name="passwords" placeholder="请确认密码">
+            </li>
+            <li class="code">
+                <img src="img/code.png" height="37" width="31"/>
+                <input type="text" id="code" name="code" placeholder="请输入验证码" maxlength="4">
+                <span class="gain">获取</span>
+            </li>
+        </ul>
+        <div class="protocol">
+            <label class="unensure">
+                <!--<input type="checkbox">-->
+                <img src="img/case.png" height="25" width="29"/>
+            </label>
+            <p>我已确认阅读并同意使用条款和隐私政策</p>
+        </div>
+    </form>
+    <input type="submit" value="注册" class="register">
+    <!--<a href="login.html">已有账号？立即登录</a>-->
+</div>
+
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/common.js"></script>
+<script src="js/register.js"></script>
+</html>
