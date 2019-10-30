@@ -1,0 +1,114 @@
+.content{
+    width: 7.5rem;
+    padding-bottom:2.87rem;
+}
+.hot_search{
+    width: 6.9rem;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hot_search h2{
+    font-size:.26rem;
+    color:#000000;
+    font-weight: normal;
+    margin-left:.12rem;
+    height: .61rem;
+    line-height: .61rem;
+}
+.hot_search h2 img{
+    width: .2rem;
+    height: .24rem;
+    vertical-align: middle;
+    margin-right:.1rem;
+}
+.hot_search ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left:.4rem;
+}
+.hot_search ul li{
+    margin-bottom:.29rem;
+    line-height: .49rem;
+}
+.hot_search ul li a{
+    font-size:.26rem;
+    color:#000000;
+    display: block;
+    border:.01rem solid #b5b5b5;
+    width: 1.34rem;
+    height: .49rem;
+    text-align: center;
+}
+.record{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom:.01rem solid #b5b5b5;
+}
+.record h2{
+    font-size:.26rem;
+    color:#000000;
+    font-weight: normal;
+    line-height: .65rem;
+    margin-left:.42rem;
+}
+.record h2 img{
+    width: .24rem;
+    height: .24rem;
+    vertical-align: middle;
+    margin-right:.06rem;
+}
+.his-record{
+}
+.his-record>li{
+    padding-left:.71rem;
+    line-height: .81rem;
+    overflow: hidden;
+    border-bottom: .01rem  solid #b5b5b5;
+}
+.his-record>li>a{
+    font-size:.24rem;
+    color:#000000;
+    display: block;
+    float:left;
+}
+.his-record ol{
+    display: flex;
+    float:right;
+}
+.his-record ol li{
+    margin-right:.1rem;
+    margin-top:.23rem;
+}
+.his-record ol li a{
+    font-size:.24rem;
+    color:#333333;
+    display: block;
+    width: 1.02rem;
+    height: .39rem;
+    background:#dcdcdc;
+    line-height: .39rem;
+    text-align: center;
+}
+.del{
+    position: fixed;
+    background:black;
+    width: 7.5rem;
+    height: .75rem;
+    bottom: 0;
+}
+.del p{
+    text-align: center;
+    margin:0 auto;
+    font-size:.26rem;
+    color:white;
+    line-height: .75rem;
+    cursor: pointer;
+}
+.del p img{
+    width: .28rem;
+    height: .32rem;
+    vertical-align: middle;
+    margin-right:.22rem;
+}

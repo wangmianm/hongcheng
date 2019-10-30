@@ -1,0 +1,79 @@
+.header p{
+    position: relative;
+    font-size:.36rem;
+    color:#6e6e6e;
+    text-align: center;
+    line-height: .87rem;
+}
+.header p a{
+    position:absolute;
+}
+.content{
+    padding-left:.3rem;
+    padding-right:.2rem;
+    margin:0 auto;
+    padding-bottom: .82rem;
+}
+.content>p{
+    text-align: center;
+    margin-right:.03rem;
+}
+.content>p img{
+    width: 3.29rem;
+    height: 3.9rem;
+    margin-top:.28rem;
+    vertical-align: middle;
+}
+.success{
+    text-align: center;
+    margin:.17rem 0 .4rem .15rem;
+}
+.success h2{
+    font-size:.36rem;
+    color:#000000;
+    font-weight: normal;
+}
+.success p{
+    font-size:.22rem;
+    color:#333333;
+}
+.info{
+    margin-left:1.5rem;
+}
+.info dl dt{
+    font-size:.24rem;
+    color:#000000;
+    margin-bottom:.13rem;
+}
+.info dl dd{
+    font-size:.22rem;
+    color:#222222;
+}
+.info dl dd span{
+    margin-left: .53rem;
+}
+.info p{
+    font-size:.28rem;
+    color:#eb5310;
+    margin-top:.19rem;
+}
+.jump{
+    display: flex;
+    padding-left:.7rem;
+    margin-top:.92rem;
+}
+.jump a{
+    font-size:.28rem;
+    color:#eb5310;
+    display: block;
+    width:2.13rem;
+    height: .54rem;
+    border:.01rem solid #eb5310;
+    text-align: center;
+    line-height: .54rem;
+    margin:0 .3rem;
+}
+.jump .on{
+    background:#eb5310;
+    color:white;
+}

@@ -1,0 +1,201 @@
+.swiper-container{
+    width: 7.5rem;
+    height: 3rem;
+    margin:0 auto;
+    overflow: hidden;
+}
+.swiper-wrapper{
+    position: relative;
+    display: flex;
+    height: 3rem;
+}
+.swiper-slide{
+    position: relative;
+}
+.swiper-slide img{
+    width: 7.5rem;
+    height: 3rem;
+}
+.nav ul{
+    display: flex;
+    width: 7.1rem;
+    justify-content:space-around;
+    margin:0 auto;
+    font-size:.24rem;
+}
+.nav ul li{
+    width: .99rem;
+    text-align: center;
+    margin-top:.3rem;
+}
+.nav ul li a{
+    display: block;
+    color:#333333;
+}
+.nav ul li a img{
+    width: .99rem;
+    height: .99rem;
+}
+.content .hots{
+    width: 7.1rem;
+    margin:.19rem auto 0;
+    overflow: hidden;
+}
+.content p{
+    font-size:.26rem;
+    color:#000000;
+    width: 7.1rem;
+    height: .37rem;
+}
+.content p>a{
+    color:#eb5310;
+    float:right;
+    margin-right:.15rem;
+}
+.content .hots div{
+    display: flex;
+    height: 4rem;
+    float:left;
+    margin-top:.13rem;
+}
+.content .hots div>a img{
+    width: 3.55rem;
+    height: 4rem;
+}
+.content .hots div>a{
+    position: relative;
+}
+.content .hots div >a span{
+    font-size:.26rem;
+    color:white;
+    position:absolute;
+    top:.01rem;
+    right:.19rem;
+    padding-top:.05rem;
+    display: inline-block;
+    width: .82rem;
+    height: .83rem;
+    text-align: center;
+    background:url("../img/polygon.png") no-repeat;
+    line-height: .3rem;
+}
+.content .hots ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: space-between;
+}
+.hots ul li{
+    width: 3.43rem;
+    height: 1.94rem;
+}
+.hots ul li a{
+    display: block;
+    height: 1.94rem;
+    position: relative;
+}
+.hots ul li a img{
+    width: 3.43rem;
+    height: 1.94rem;
+}
+.hots ul li a span{
+    position: absolute;
+    font-size:.24rem;
+    color:white;
+    top:.1rem;
+    left:.1rem;
+    display: inline-block;
+    width: 1.22rem;
+    height: .4rem;
+    text-align: center;
+    background:#eb5310;
+    line-height: .4rem;
+}
+.new-product{
+    width: 7.1rem;
+    margin:.33rem auto 0;
+}
+.new-product ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top:.13rem;
+    margin-bottom:.25rem;
+}
+.new-product ul li{
+    width: 2.22rem;
+}
+.new-product ul li>a{
+    position: relative;
+    display: inline-block;
+    margin-bottom:.15rem;
+}
+.new-product li a img{
+    width: 2.22rem;
+    height: 3rem;
+    vertical-align: middle;
+}
+.new-product li a span{
+    position: absolute;
+    font-size:.24rem;
+    width: .53rem;
+    height: .51rem;
+    top:0;
+    right:.09rem;
+    color:white;
+    background:url("../img/polygon01.png") no-repeat;
+    text-align: center;
+    padding-top:.06rem;
+}
+.new-product ul li p{
+    width: 2.22rem;
+    text-align: center;
+    font-size:.24rem;
+    color:#eb5310;
+}
+.new-product ul li p a{
+    color:#333333;
+    margin-right:0;
+    display: block;
+    width: 2.22rem;
+}
+.bursting{
+    width: 7.1rem;
+    margin:0 auto;
+}
+.bursting ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top:.03rem;
+}
+.bursting ul li{
+    margin-top:.1rem;
+}
+.bursting li a img{
+    width: 2.22rem;
+    height: 3rem;
+    vertical-align: middle;
+}
+.bursting ul li>a{
+    display: inline-block;
+    margin-bottom:.15rem;
+}
+.bursting ul li p{
+    width: 2.22rem;
+    text-align: center;
+    font-size:.24rem;
+    color:#eb5310;
+}
+.bursting ul li p a{
+    color:#333333;
+    margin-right:0;
+    display: block;
+    width: 2.22rem;
+}
+.bursting ul .pro a{
+    margin-bottom:0;
+}
+.bursting ul .pro a img{
+    width: 2.22rem;
+    height: 1.99rem;
+}

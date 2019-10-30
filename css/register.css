@@ -1,0 +1,105 @@
+.header p{
+    position: relative;
+    font-size:.36rem;
+    color:#6e6e6e;
+    text-align: center;
+    line-height: .87rem;
+}
+.header p a{
+    position:absolute;
+}
+.content{
+    padding-left:.3rem;
+    padding-right:.2rem;
+    margin:0 auto;
+    overflow: hidden;
+}
+.content form{
+    padding-left:.07rem;
+    padding-right:.17rem;
+}
+.content form ul li{
+    width: 6.73rem;
+    height: .85rem;
+    border:.01rem solid #9a9a9a;
+    border-radius: .5rem;
+    margin-top:.39rem;
+    white-space: nowrap;
+    line-height: .85rem;
+}
+
+.content form li img{
+    width: .31rem;
+    height: .37rem;
+    margin-left:.63rem;
+    margin-top:.24rem;
+    float:left;
+}
+.content form li input{
+    font-size:.26rem;
+    color:#6e6e6e;
+    padding-left:.17rem;
+    width: 5.2rem;
+    height: .7rem;
+    margin-top: .1rem;
+    float:left;
+}
+.content form .code input{
+    width: 3.2rem;
+}
+.content form li span{
+    display: block;
+    font-size:.26rem;
+    width: 1.39rem;
+    height: .71rem;
+    background:#eb5310;
+    color:white;
+    border-radius: .5rem;
+    float:right;
+    text-align: center;
+    line-height: .71rem;
+    margin-top:.07rem;
+    margin-right:.14rem;
+}
+.protocol{
+    display: flex;
+    justify-content: center;
+    padding-right:.03rem;
+    padding-top:.23rem;
+}
+.protocol label{
+    display: flex;
+    margin-right:.16rem;
+}
+.protocol label input{
+    display: none;
+}
+.protocol label img{
+    width: .29rem;
+    height: .25rem;
+   margin-top:.04rem;
+}
+.protocol p{
+    font-size:.26rem;
+    color:#333333;
+    float:left;
+}
+.register{
+    width: 6.73rem;
+    height: .87rem;
+    font-size:.48rem;
+    background:#eb5310;
+    color:white;
+    text-align: center;
+    border-radius: .5rem;
+    line-height: .87rem;
+    display: block;
+    margin-top:.43rem;
+}
+.content a{
+    font-size:.2rem;
+    color:#333333;
+    float:right;
+    margin-right:.47rem;
+    margin-top:.12rem;
+}

@@ -1,0 +1,94 @@
+.content{
+    width: 7.5rem;
+    margin:0 auto;
+    overflow: hidden;
+}
+.nav{
+    width: 6.5rem;
+    padding:0 .20rem;
+    margin:.05rem auto 0;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul li{
+    font-size:.24rem;
+}
+.nav ul li a{
+    color:#333333;
+}
+.nav ul li a img{
+    width: .23rem;
+    height: .12rem;
+}
+.nav ul .on a{
+    color:#eb5310;
+}
+.pro-list{
+    margin-top:.25rem;
+    margin-bottom:.09rem;
+}
+.pro-list ul{
+    display: flex;
+    flex-direction: column;
+    width: 6.9rem;
+    margin:0 auto;
+}
+.pro-list ul li{
+    margin-bottom:.2rem;
+}
+.pro-list ul li a{
+    float:left;
+    display: block;
+}
+.pro-list ul li div{
+    float:left;
+    margin-left:.15rem;
+}
+.pro-list li a img{
+    width: 3.26rem;
+    height: 2.39rem;
+    vertical-align: middle;
+}
+.pro-list li div h2{
+    font-size:.22rem;
+    color:#333333;
+    font-weight: normal;
+    height: .38rem;
+    line-height: .38rem;
+}
+.pro-list li div p{
+    margin-top:.17rem;
+    overflow: hidden;
+    margin-left:.06rem;
+}
+.pro-list li div p a{
+    font-size:.24rem;
+    color:#333333;
+}
+.pro-list li div span{
+    font-size:.3rem;
+    color:#eb5310;
+    display: block;
+    margin-top:.47rem;
+    margin-bottom:.1rem;
+}
+.pro-list li div button{
+    font-size:.24rem;
+    color:#eb5310;
+    display: block;
+    float:left;
+    background:white;
+    width: 1.31rem;
+    height: .37rem;
+    border:.02rem solid #eb5310;
+    text-align: center;
+    margin-left:.06rem;
+    margin-right:.14rem;
+    cursor: pointer;
+}
+.pro-list li div .buy{
+    background:#eb5310;
+    color:white;
+}

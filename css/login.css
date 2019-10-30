@@ -1,0 +1,96 @@
+.header p{
+    position: relative;
+    font-size:.36rem;
+    color:#6e6e6e;
+    text-align: center;
+    line-height: .87rem;
+}
+.header p a{
+    position:absolute;
+}
+.content{
+    padding:.43rem .2rem 1.5rem .3rem;
+    margin:0 auto;
+    overflow: hidden;
+
+}
+.content form{
+    padding-left:.07rem;
+    padding-right:.17rem;
+}
+.content form ul li{
+    width: 6.73rem;
+    height: .85rem;
+    border:.01rem solid #9a9a9a;
+    border-radius: .5rem;
+    margin-top:.4rem;
+    white-space: nowrap;
+    line-height: .85rem;
+}
+
+.content form li img{
+    width: .31rem;
+    height: .37rem;
+    margin-left:.63rem;
+    margin-top:.24rem;
+    float:left;
+}
+.content form li input{
+    font-size:.26rem;
+    color:#6e6e6e;
+    padding-left:.17rem;
+    width: 5.2rem;
+    height: .7rem;
+    margin-top: .1rem;
+    float:left;
+}
+.login{
+    width: 6.73rem;
+    height: .87rem;
+    font-size:.48rem;
+    background:#eb5310;
+    color:white;
+    text-align: center;
+    border-radius: .5rem;
+    line-height: .87rem;
+    display: block;
+    margin-top:.4rem;
+    margin-left:.07rem;
+}
+.content p{
+    display: flex;
+    justify-content: space-between;
+    padding-left:.07rem;
+    padding-right:.17rem;
+}
+.content p a{
+    font-size:.2rem;
+    color:#333333;
+    margin-top:.1rem;
+}
+.other h2{
+    font-size:.2rem;
+    color:#333333;
+    font-weight: normal;
+    text-align: center;
+    background:url("../img/shape01.png") no-repeat center;
+    background-size:4.96rem;
+}
+.other{
+    margin-top:1.95rem;
+}
+.other ul{
+    display: flex;
+    width: 3.82rem;
+    margin:0 auto;
+    justify-content: space-between;
+    padding-top:.27rem;
+}
+.other li a{
+    display: flex;
+}
+.other li a img{
+    width: .75rem;
+    height: .75rem;
+    vertical-align: middle;
+}

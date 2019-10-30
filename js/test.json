@@ -1,0 +1,95 @@
+{
+  "new":[
+      {
+        "id":1,
+        "title": "宏诚出品全棉四件套",
+        "src": "img/pro04.jpg",
+        "price": 264
+      },
+      {
+        "id":2,
+        "title": "时尚节约四件套",
+        "src": "img/pro05.jpg",
+        "price": 264
+      },
+      {
+        "id":3,
+        "title": "时尚节约棉布",
+        "src": "img/pro06.jpg",
+        "price": 264
+      }
+  ],
+  "bursting":[{
+    "id":4,
+    "title":"秋季时尚纯棉被单",
+    "src":"img/pro07.jpg",
+    "price":264
+  },
+    {
+      "id":5,
+      "title":"纯棉印花保暖被单",
+      "src":"img/pro08.jpg",
+      "price":264
+    },
+    {
+      "id":6,
+      "title":"宏诚碎花四件套",
+      "src":"img/pro09.jpg",
+      "price":264
+    },
+    {
+      "id":7,
+      "title":"酒店床上纯棉被单",
+      "src":"img/pro10.jpg",
+      "price":264
+    },
+    {
+      "id":8,
+      "title":"酒店用品纯棉被单",
+      "src":"img/pro11.jpg",
+      "price":264
+    },
+    {
+      "id":9,
+      "title":"时尚节约四件套",
+      "src":"img/pro12.jpg",
+      "price":264
+    },
+    {
+      "id":10,
+      "title":"欧美时尚纯棉毛毯",
+      "src":"img/pro13.jpg",
+      "price":264
+    },
+    {
+      "id":11,
+      "title":"梦幻公主风四件套",
+      "src":"img/pro14.jpg",
+      "price":264
+    },
+    {
+      "id":12,
+      "title":"儿童活泼可爱四件套",
+      "src":"img/pro15.jpg",
+      "price":264
+    },
+    {
+      "id":13,
+      "title":"时尚节约棉布",
+      "src":"img/pro16.jpg",
+      "price":264
+    },
+    {
+      "id":14,
+      "title":"全棉防滑布艺",
+      "src":"img/pro17.jpg",
+      "price":264
+    },
+    {
+      "id":15,
+      "title":"条纹时尚棉布",
+      "src":"img/pro18.jpg",
+      "price":264
+    }
+  ]
+}

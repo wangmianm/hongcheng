@@ -1,0 +1,117 @@
+.header p{
+    position: relative;
+    font-size:.36rem;
+    color:#6e6e6e;
+    text-align: center;
+    line-height: .87rem;
+}
+.header p a{
+    position:absolute;
+}
+.header p a+a{
+    right:.28rem;
+    top:0;
+    color:#6e6e6e;
+    margin-top:0;
+}
+.nav ul{
+    display: flex;
+    width: 6.9rem;
+    margin:0 auto;
+    justify-content: space-between;
+}
+.nav ul li a{
+    width: 1.29rem;
+    display: block;
+    font-size:.24rem;
+    color:black;
+    text-align: center;
+    line-height: .6rem;
+}
+.nav ul .on a{
+    background:#eb5310;
+    color:white;
+}
+.pro-list ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pro-list ul li{
+    width: 7.2rem;
+    padding-left:.3rem;
+    background:url("../img/rectangle.jpg") no-repeat top;
+    position: relative;
+}
+.pro-list ul li:first-child{
+    background:none;
+}
+.pro-list ul li:first-child>p{
+    margin-top:.25rem;
+}
+.pro-list li>p{
+    font-size:.22rem;
+    color:black;
+    margin-left:.1rem;
+    width: 6.92rem;
+    margin-bottom:.08rem;
+    margin-top:.52rem;
+}
+.pro-list li>p span{
+    color:#eb5310;
+    float:right;
+    margin-right:1.01rem;
+}
+.pro-list li a{
+    display: block;
+    float:left;
+}
+.pro-list li a img{
+    width: 2.64rem;
+    height: 2.64rem;
+    vertical-align: middle;
+}
+.pro-list li div{
+    float: left;
+    margin-left:.1rem;
+}
+.pro-list li div h2{
+    font-size:.2rem;
+    color:#6e6e6e;
+    font-weight: normal;
+    margin-top:.07rem;
+}
+.pro-list li div p{
+    overflow: hidden;
+    font-size:.22rem;
+    color:#6e6e6e;
+    width: 4.14rem;
+}
+.pro-list li div p a{
+    font-size:.24rem;
+    color:#333333;
+}
+.pro-list li div .colour{
+    margin-top:.2rem;
+}
+.pro-list li div .num{
+    font-size:.24rem;
+    border-bottom:.01rem solid #9a9a9a;
+    margin-top:.03rem;
+    padding-bottom:.06rem;
+}
+.pro-list li div .num span{
+    font-size:.3rem;
+    color:#eb5310;
+}
+.pro-list li div .sum{
+    width: 4.46rem;
+    margin-top:.11rem;
+}
+.pro-list li .del{
+    position: absolute;
+    font-size:.28rem;
+    right:.3rem;
+    bottom:.65rem;
+    color:red;
+    display: none;
+}

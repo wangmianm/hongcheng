@@ -1,0 +1,156 @@
+body{
+    padding-bottom:1.99rem;
+}
+.header{
+    height: auto;
+    border-bottom: none;
+}
+.header>p{
+    position: relative;
+    font-size:.36rem;
+    color:#6e6e6e;
+    text-align: center;
+    line-height: .87rem;
+    border-bottom: .01rem solid #b5b5b5;
+}
+.header p a{
+    position:absolute;
+}
+.header p a+a{
+    right:.28rem;
+    top:0;
+    color:#6e6e6e;
+    margin-top:0;
+}
+.fun{
+    background:white;
+    width: 6.9rem;
+    padding:0 .3rem;
+    display: none;
+    border-bottom: .01rem solid #b5b5b5;
+}
+.funs{
+    display: flex;
+    justify-content: flex-end;
+}
+.fun span{
+    font-size:.16rem;
+    line-height: .6rem;
+    padding:0 .3rem;
+}
+.shop-list{
+    padding-top:.2rem;
+    padding-bottom:.64rem;
+    overflow: hidden;
+}
+.shop-list ul li{
+    display: flex;
+    padding:0 .3rem;
+    margin-bottom:.31rem;
+    width: 6.9rem;
+}
+.shop-list ul li label img{
+    width: .39rem;
+    height: .39rem;
+    align-self: center;
+}
+.shop-list ul li>a{
+    display: block;
+    margin-left:.11rem;
+    margin-right:.2rem;
+}
+.shop-list ul li a img{
+    width: 2rem;
+    height: 2rem;
+    vertical-align: middle;
+}
+.shop-list div h2{
+    font-size:.2rem;
+    color:#6e6e6e;
+    font-weight: normal;
+    margin-top:.08rem;
+    margin-bottom:.03rem;
+}
+.shop-list div p a{
+    font-size:.24rem;
+    color:#333333;
+    line-height: .32rem;
+    width: 4.2rem;
+    display: block;
+    height: .64rem;
+}
+.shop-list div p{
+    font-size:.22rem;
+    color:#6e6e6e;
+    line-height: .24rem;
+}
+.shop-list div .colour{
+    margin-top:.06rem;
+}
+.shop-list div .price{
+    font-size:.24rem;
+    margin-top:.21rem;
+    float:left;
+    line-height: .19rem;
+}
+.shop-list div .price span{
+    font-size:.3rem;
+    color:#eb5310;
+    display: inline-block;
+}
+.shop-list div>span{
+    display: inline-flex;
+    float:right;
+    width: .83rem;
+    height: .29rem;
+    margin-top:.14rem;
+}
+.shop-list div>span input{
+    background:white;
+    width: .27rem;
+    text-align: center;
+    border:.01rem solid #333333;
+    font-size: .24rem;
+    line-height: .27rem;
+}
+.shop-list div>span .number{
+    border-left:none;
+    border-right:none;
+}
+.set{
+    display: flex;
+    background:#feded0;
+    justify-content: space-between;
+    padding-left:.25rem;
+    position: fixed;
+    bottom: .99rem;
+    width: 7.25rem;
+}
+.set img{
+    width: .39rem;
+    height: .39rem;
+    align-self: center;
+}
+.set .total{
+    margin-top:.22rem;
+    margin-left:2.96rem;
+}
+.set .total p{
+    font-size:.24rem;
+    color:#333333;
+    text-align: right;
+    line-height: .31rem;
+}
+.set .total p span{
+    color:#eb2f10;
+}
+.set a{
+    font-size:.3rem;
+    display: block;
+    width: 2rem;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    background:#eb5310;
+    color:white !important;
+}

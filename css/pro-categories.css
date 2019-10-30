@@ -1,0 +1,62 @@
+.content{
+    width: 7.5rem;
+    margin: 0 auto;
+    display: flex;
+}
+.sidebar{
+    position: fixed;
+    width: 1.78rem;
+    line-height: 1rem;
+}
+.sidebar li{
+    font-size:.26rem;
+    border-bottom:.01rem solid #cfcfcf;
+
+}
+.sidebar li a{
+    color:#333333;
+    margin-left:.31rem;
+}
+.sidebar .on{
+    background:url("../img/shape.png") no-repeat;
+    border-bottom:.01rem solid white;
+}
+.sidebar .on a{
+    color:#eb5310;
+}
+.main{
+    margin-left:1.78rem;
+    margin-top:.4rem;
+    display: none;
+    margin-bottom:.28rem;
+}
+.content .on{
+    display: block;
+}
+.main ul{
+    display: flex;
+    justify-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.main ul li{
+    width: 1.73rem;
+    text-align: center;
+}
+.main ul li a{
+    display: block;
+}
+.main ul li a img{
+    width: 1.73rem;
+    height: 1.97rem;
+    vertical-align: middle;
+}
+.main ul li p{
+    line-height: .63rem;
+    height: .63rem;
+}
+.main ul li p a{
+    font-size:.24rem;
+    color:#333333;
+    display: block;
+}

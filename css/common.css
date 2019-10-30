@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    outline:none;
+    border:none;
+    list-style: none;
+    text-decoration: none;
+    font-family: "苹方";
+}
+html{
+    font-size:100px;
+}
+body{
+    width: 7.5rem;
+    margin:0 auto;
+    padding-top:.88rem;
+    padding-bottom:.98rem;
+}
+.header{
+    width: 100%;
+    max-width: 7.5rem;
+    background:#eb5310;
+    height: .88rem;
+    position: fixed;
+    z-index: 2;
+    top:0;
+}
+.header .top{
+    width: 7.1rem;
+    margin:0 auto;
+}
+.header .top a{
+    width: .58rem;
+    margin-top:.16rem;
+    margin-left:.11rem;
+    float:left;
+    display: flex;
+}
+.header .top a img{
+    width: .58rem;
+    height: .57rem;
+}
+.search{
+    background:white;
+    height: .52rem;
+    width: 4.71rem;
+    border-radius: .08rem;
+    float:left;
+    margin-top:.18rem;
+    margin-left:.49rem;
+}
+.search img{
+    margin-top:.06rem;
+    margin-left:.3rem;
+    float:left;
+    width: .38rem;
+    height: .38rem;
+}
+.search input{
+    color:#333333;
+    font-size:.24rem;
+    margin-left:.16rem;
+    width: 3.6rem;
+    height: .52rem;
+    line-height: .52rem;
+    float:left;
+}
+.header .top a:last-child{
+    float:right;
+    margin-right:.12rem;
+    width: .58rem;
+    height: .58rem;
+}
+footer{
+    width: 100%;
+    max-width: 7.5rem;
+    position: fixed;
+    z-index: 1;
+    bottom:0;
+    height: .97rem;
+    background:white;
+    border:.01rem solid #d4d4d4;
+    border-right:none;
+}
+footer ul{
+    display: flex;
+    width: 7.1rem;
+    margin:0 auto;
+    justify-content: space-between;
+}
+footer ul li{
+    text-align: center;
+}
+footer ul li a{
+    font-size:.24rem;
+    color:#515151;
+    display: block;
+    padding:.1rem .34rem;
+}
+footer ul li a img{
+    width: .48rem;
+    height: .49rem;
+    vertical-align: middle;
+    display: block;
+    margin:0 auto;
+}
+footer ul .on a{
+    color:#eb5310;
+}
